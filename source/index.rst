@@ -1,95 +1,62 @@
 Python bindings for SFML
 ========================
-This is version |version| of the Python bindings for `SFML`_, based on
-SFML |version|, and is made available under the terms of the `zlib/libpng`_ license.
 
-By combining the strength of SFML with the ease of the Python language,
-we can provide an amazing tool to quickly build multimedia software.
+.. warning ::
+
+    This is a work-in-progress. Some links might not be functional and
+    and some documents are incomplete. Check this :doc:`page </tasks>`
+    to understand the remaining tasks.
+
+.. warning ::
+
+    Since recently, repositories were moved to an organisation. Check
+    this :doc:`page </organisation>` to understand what it's all about.
+
+This is version |release| of the official Python bindings for `SFML`_,
+based on SFML |release|, and is made available under the terms of the
+`zlib/libpng`_ license. ::
+
+    pip install pysfml
+
+For further information, visit the following sections.
+
+* :doc:`gettingstarted` *Everything you have to know to get yourself started with these bindings.*
+* :doc:`download`       *Instructions on how and where to install these bindings for various platforms.*
+* :doc:`tutorials`      *Tutorials focusing on the various core principles to understanding how SFML works.*
+* :doc:`reference`      *Complete library reference organized by each of the binding's five core modules.*
+* :doc:`distribute`     *Comprehensive guide on how to distribute your application for each platform.*
+* :doc:`c_api`          *Embed or extend these bindings with the C/Cython API*
+* :doc:`extensions`     *Discover other awesome SFML-based libraries ported to Python such as* `Thor`_ *or* `sfeMovie`_.
 
 These bindings were created in large part by Jonathan De Wachter, with
 significant contributions from Edwin Marshall. Other contributors include
 Jorge Araya Navarro and Richard Sims.
 
+You may also want to check the :doc:`changelogs </changelog>`.
 
-Table of Contents
-=================
+.. _SFML: http://www.sfml-dev.org/
+.. _zlib/libpng: http://opensource.org/licenses/Zlib
+.. _Thor: http://thor.python-sfml.org
+.. _sfeMovie: http://sfemovie.python-sfml.org
+.. _official Python bindings: https://github.com/PySFML/python-sfml
 
 .. toctree::
    :maxdepth: 1
    :hidden:
 
-   whatsnew
-   download
+   introduction
    gettingstarted
-   examples
+   download
+   compilation
+   repositories
    tutorials
-   api/api_index
-   addons
+   distribute
+   reference
+   extensions
    changelog
    c_api
+   tasks
    todo
-   future_tutorials
-
-.. hlist::
-   :columns: 2
-
-   * .. glossary::
-
-      :doc:`whatsnew`
-         What's new since the last release, and what we have planned for the
-         next one.
-
-   * .. glossary::
-
-      :doc:`download`
-         Instructions on where and how to install these bindings for various
-         platforms. Includes information on how to compile them from source.
-
-   * .. glossary::
-
-      :doc:`gettingstarted`
-         A gentle introduction to these bindings, covering some basic
-         principles.
-
-   * .. glossary::
-
-      :doc:`examples`
-         Practical examples demonstrating how various parts of this binding can
-         work together with each other as well as other APIs.
-
-   * .. glossary::
-
-      :doc:`tutorials`
-         Tutorials focusing on the various core principles integral to
-         understanding how SFML works.
-
-   * .. glossary::
-
-      :doc:`api/api_index`
-         Complete library reference organized by each of the binding's five
-         core modules.
-
-   * .. glossary::
-
-      :doc:`addons`
-         Documentation for complementary SFML-based libraries that have also
-         been ported to Python.
-
-   * .. glossary::
-
-      :doc:`c_api`
-         Embed Python code using SFML into your C/C++ application or
-         write your own Python extension using the C/Cython API.
-
-.. _SFML: http://www.sfml-dev.org/
-.. _zlib/libpng: http://opensource.org/licenses/Zlib
-.. _official Python bindings: https://github.com/bastienleonard/pysfml2-cython
-
-
-Next Version
-------------
-Version 1.4.0 will concentrate on fixing bugs In addition, it will be the first
-version to `officially
-support Mac OS X`_.
-
-.. _officially support Mac OS X: http://github.com/Sonkun/python-sfml/issues/44
+   documents/index
+   documents/dealing_with_hierarchy
+   organisation

@@ -1,4 +1,4 @@
-Cython/C API
+Python C API
 ============
 This section explains how to embed or extend Python using the new C/Cython
 API.
