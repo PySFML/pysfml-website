@@ -1,5 +1,5 @@
-Adding special effects with shaders
-===================================
+Communication using sockets
+===========================
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sed lectus sagittis, gravida ligula consectetur, ornare erat. Aliquam ut turpis ut diam mattis convallis. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Etiam vehicula, nunc eget posuere mattis, lacus enim efficitur ex, dignissim convallis tortor diam a massa. Curabitur aliquam, velit vitae congue posuere, turpis nisi lacinia justo, vel imperdiet massa justo non metus. Donec mattis ante eget venenatis convallis. Donec cursus ullamcorper ipsum nec fringilla. Morbi sit amet fringilla nisi, non congue urna.
 
